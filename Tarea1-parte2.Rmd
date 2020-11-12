@@ -10,5 +10,41 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ### Ejercicio 6.8.3 
+#### a)
 
-Aplicando la fórmula de bayes, tenemos que 
+Denotemos por $A$ al evento en el que un test es positivo y por $V$ al evento en el que una persona tiene el virus, entonces buscamos $P(V|A)$. Sabemos, por la fórmula de bayes, que $P(V|A)=\frac{P(A|V)P(V)}{P(A|V)P(V)+P(A|V^c)P(V^c)}$.
+
+```{r, cache = T}
+## P(A|V)
+AV <- 0.99
+## P(V)
+V <- 1/100000
+## P(A|Vc)
+AVc <- .01
+## P(Vc) 
+Vc <- 1 - V
+
+VA <- (AV*V)/(AV*V + AVc*Vc)
+VA
+```
+Así, tenemos que $P(V|A)=$ `r round(VA, 5)`.
+
+#### b) 
+
+Análogo al inciso anterior, tenemos que $P(V|A^c)=\frac{P(A|V^c)P(V^c)}{P(A|V)P(V)+P(A|V^c)P(V^c)}$
+
+```{r}
+AcV <- 1 - AV
+VAc <- (AcV*Vc)/(AV*V + AVc*Vc)
+VAc
+```
+Así, tenemos que $P(V|A^c)=$ `r round(VAc, 5)`.
+
+#### c)
+
+```{r}
+VA + VAc
+```
+Las probabilidades suman 1.
+
+
