@@ -47,4 +47,6 @@ VA + VAc
 ```
 Las probabilidades suman 1.
 
+### 6.8.11 
+
 
