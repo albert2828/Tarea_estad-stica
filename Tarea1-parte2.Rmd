@@ -1,0 +1,14 @@
+---
+title: "Tarea 1, segunda parte"
+author: "Isaías Germade, Alberto Macías"
+date: "11/12/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Ejercicio 6.8.3 
+
+Aplicando la fórmula de bayes, tenemos que 
