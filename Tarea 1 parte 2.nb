@@ -1,0 +1,1206 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     41844,       1198]
+NotebookOptionsPosition[     36614,       1107]
+NotebookOutlinePosition[     37051,       1124]
+CellTagsIndexPosition[     37008,       1121]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Tarea 1 - Parte 2", "Title",
+ FontColor->RGBColor[0, 0, 1]]], "Text",
+ CellChangeTimes->{{3.8162835254584756`*^9, 3.816283580623706*^9}, {
+  3.816283621119776*^9, 3.8162836560240507`*^9}, {3.8162845088346386`*^9, 
+  3.816284565579926*^9}, {3.8162851692501526`*^9, 3.816285311144581*^9}, {
+  3.8162888764268627`*^9, 3.816288884178017*^9}, {3.816483465185719*^9, 
+  3.816483468420067*^9}, {3.8165449189172277`*^9, 3.8165449210082855`*^9}, {
+  3.816638264997799*^9, 3.8166382780266967`*^9}, {3.8166389899904065`*^9, 
+  3.816639014128257*^9}},ExpressionUUID->"40e56dc5-8fac-4f1f-998b-\
+96329017eef3"],
+
+Cell[TextData[StyleBox["Cap\[IAcute]tulo 6", "Chapter"]], "Text",
+ CellChangeTimes->{{3.816638991820386*^9, 
+  3.8166390665510035`*^9}},ExpressionUUID->"9d43b5e4-4fe2-461c-927c-\
+4d4753d899dd"],
+
+Cell[TextData[StyleBox["Ejercicio 6.8, 3\na.", "Subsection",
+ FontColor->GrayLevel[0]]], "Text",
+ CellChangeTimes->{{3.816639059189968*^9, 3.816639060557561*^9}, {
+  3.8166390909305334`*^9, 
+  3.8166391020649242`*^9}},ExpressionUUID->"85727064-636c-401a-8d67-\
+ab04143cde0a"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  StyleBox[
+   RowBox[{
+    RowBox[{
+    "Definimos", " ", "el", " ", "evento", " ", "V", " ", "como", " ", "el", 
+     " ", "evento", " ", "en", " ", "el", " ", "que", " ", "el", " ", 
+     "paciente", " ", "tiene", " ", "el", " ", "virus"}], 
+    StyleBox[
+     StyleBox[",", "Text",
+      FontFamily->"Times New Roman",
+      FontSize->14,
+      FontWeight->"Normal",
+      FontColor->GrayLevel[0]], "Text",
+     FontFamily->"Times New Roman",
+     FontSize->14,
+     FontWeight->"Normal",
+     FontColor->GrayLevel[0]], 
+    StyleBox[" ", "Text",
+     FontFamily->"Times New Roman",
+     FontSize->14,
+     FontWeight->"Normal",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+    "T", " ", "el", " ", "evento", " ", "en", " ", "el", " ", "que", " ", 
+     "el", " ", "paciente", " ", "d\[AAcute]", " ", "positivo", " ", "en", 
+     " ", "el", " ", 
+     RowBox[{"estudio", ".", " ", 
+      StyleBox[
+       RowBox[{
+        StyleBox[
+         StyleBox[
+          StyleBox["P", "Text",
+           FontColor->GrayLevel[0]], "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], 
+        StyleBox[
+         StyleBox["V", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]]}]]}], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["e", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["s", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["l", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["a", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["p", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ro", 
+       StyleBox["b", "Text",
+        FontColor->GrayLevel[0]], "ab", 
+       StyleBox["i", "Text",
+        FontColor->GrayLevel[0]], "li", 
+       StyleBox["d", "Text",
+        FontColor->GrayLevel[0]], "ad"}]], " ", 
+     StyleBox[
+      RowBox[{"d", 
+       StyleBox["e", "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["q", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ue"}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["e", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["l", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["p", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ac", 
+       StyleBox["i", "Text",
+        FontColor->GrayLevel[0]], "en", 
+       StyleBox["t", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["e", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["t", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "en", 
+       StyleBox["g", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["a", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["e", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["l", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["v", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ir", 
+       StyleBox["u", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["s", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]]}], 
+    StyleBox[
+     StyleBox[",", "Text",
+      FontColor->GrayLevel[0]], "Text",
+     FontColor->GrayLevel[0]], 
+    StyleBox[" ", "Text",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox[
+      RowBox[{
+       StyleBox["PV", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["c", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["e", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["s", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["l", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["a", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["p", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ro", 
+       StyleBox["b", "Text",
+        FontColor->GrayLevel[0]], "ab", 
+       StyleBox["i", "Text",
+        FontColor->GrayLevel[0]], "li", 
+       StyleBox["d", "Text",
+        FontColor->GrayLevel[0]], "ad"}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["d", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["e", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["q", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ue"}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["e", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["l", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["p", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ac", 
+       StyleBox["i", "Text",
+        FontColor->GrayLevel[0]], "en", 
+       StyleBox["t", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["e", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["n", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["o", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["t", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "en", 
+       StyleBox["g", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["a", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["e", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["l", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["v", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ir", 
+       StyleBox["u", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["s", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]]}], 
+    StyleBox[
+     StyleBox[",", "Text",
+      FontColor->GrayLevel[0]], "Text",
+     FontColor->GrayLevel[0]], 
+    StyleBox[" ", "Text",
+     FontColor->GrayLevel[0]], 
+    RowBox[{
+     StyleBox["PT", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["l", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["a", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["p", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "r", 
+       StyleBox["o", "Text",
+        FontColor->GrayLevel[0]], "ba", 
+       StyleBox["b", "Text",
+        FontColor->GrayLevel[0]], "il", 
+       StyleBox["i", "Text",
+        FontColor->GrayLevel[0]], "da", 
+       StyleBox["d", "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["d", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["e", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["q", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ue"}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["e", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["l", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["p", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ac", 
+       StyleBox["i", "Text",
+        FontColor->GrayLevel[0]], "en", 
+       StyleBox["t", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["e", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["d", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["\[EAcute]", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["p", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "os", 
+       StyleBox["i", "Text",
+        FontColor->GrayLevel[0]], "ti", 
+       StyleBox["v", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["o", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["a", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["l", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["v", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ir", 
+       StyleBox["u", "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["s", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      StyleBox[
+       StyleBox["y", "Text",
+        FontColor->GrayLevel[0]], "Text",
+       FontColor->GrayLevel[0]], "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["P", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "Tc"}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["q", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], "ue"}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox[
+        StyleBox[
+         StyleBox["d", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
+        StyleBox["\[EAcute]", "Text",
+         FontColor->GrayLevel[0]], "Text",
+        FontColor->GrayLevel[0]]}]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     RowBox[{
+      StyleBox[
+       RowBox[{
+        StyleBox[
+         StyleBox[
+          StyleBox["n", "Text",
+           FontColor->GrayLevel[0]], "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]], "eg", 
+        StyleBox["a", "Text",
+         FontColor->GrayLevel[0]], "ti", 
+        StyleBox["v", "Text",
+         FontColor->GrayLevel[0]], 
+        StyleBox[
+         StyleBox["o", "Text",
+          FontColor->GrayLevel[0]], "Text",
+         FontColor->GrayLevel[0]]}]], 
+      StyleBox[
+       StyleBox[".", "Text",
+        FontColor->GrayLevel[0]], "Text",
+       FontColor->GrayLevel[0]], " ", "PTV"}], " ", "es", " ", "la", " ", 
+     "probabilidad", " ", "de", " ", "que", " ", "el", " ", "paciente", " ", 
+     "d\[EAcute]", " ", "positivo", " ", "dado", " ", "que", " ", "tiene", 
+     " ", "el", " ", "virus"}], ",", " ", 
+    RowBox[{
+     StyleBox["PTVc", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox["la", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[" ", "Text",
+      FontColor->GrayLevel[0]], 
+     StyleBox[
+      RowBox[{
+       StyleBox["pro", "Text",
+        FontColor->GrayLevel[0]], "babilidad"}]], " ", "de", " ", "que", " ", 
+     "el", " ", "paciente", " ", "d\[EAcute]", " ", "positivo", " ", "dado", 
+     " ", "que", " ", "no", " ", "tiene", " ", "el", " ", 
+     RowBox[{"vir\[UAcute]s", ".", " ", "PVT"}], " ", "es", " ", "la", " ", 
+     "probabilidad", " ", "de", " ", "que", 
+     StyleBox[" ", "Text",
+      FontFamily->"Times New Roman",
+      FontSize->14,
+      FontWeight->"Normal",
+      FontColor->GrayLevel[0]], "el", " ", "paciente", " ", "tenga", " ", 
+     "el", " ", "virus", " ", "dado", " ", "que", " ", "es", " ", "negativo", 
+     " ", "y", " ", "PVTc", " ", "es", " ", "la", " ", "probabilidad", " ", 
+     "de", " ", "que", " ", "el", " ", "paciente", " ", "tenga", " ", "el", 
+     " ", "virus", " ", "dato", " ", "que", " ", "di\[OAcute]", " ", 
+     "negativo", " ", "al", " ", 
+     RowBox[{"test", ".", " ", "PVcT"}], " ", "es", " ", "la", " ", 
+     "probabilidad", " ", "de", " ", "que", " ", "el", " ", "paciente", " ", 
+     "no", " ", "tenga", " ", "el", " ", "virus", " ", "dado", " ", "que", 
+     " ", "d\[EAcute]", " ", "positivo", " ", "al", " ", "test", " ", "y", 
+     " ", "PVcTc", " ", "es", " ", "la", " ", "probabilidad", " ", "de", " ", 
+     "que", " ", "el", " ", "paciente", " ", "no", " ", "tenga", " ", "el", 
+     " ", "virus", " ", "dado", " ", "que", " ", "di\[OAcute]", " ", 
+     RowBox[{"negativo", "."}]}]}], "Text",
+   FontFamily->"Times New Roman",
+   FontSize->14,
+   FontWeight->"Normal",
+   FontColor->GrayLevel[0]]}]], "Text",
+ CellChangeTimes->{{3.81663830894726*^9, 3.8166386449760075`*^9}, {
+  3.816638818383314*^9, 3.816638905892111*^9}},
+ TextJustification->1,ExpressionUUID->"1307218e-4682-4b93-a2aa-a1285b72d807"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PTV", "=", " ", "0.99"}]], "Input",
+ CellChangeTimes->{{3.81628532887473*^9, 3.816285333018462*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"e7b1b5f0-0912-41d3-afce-7046a4135c77"],
+
+Cell[BoxData["0.99`"], "Output",
+ CellChangeTimes->{3.81628533445063*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"8bf5a9c1-b71a-453c-a98f-567afbbd72db"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PV", "=", 
+  RowBox[{"1", "/", "100000"}]}]], "Input",
+ CellChangeTimes->{{3.8162853381198416`*^9, 3.8162853500684013`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"8583f196-98f3-4788-b9a0-7588694270d4"],
+
+Cell[BoxData[
+ FractionBox["1", "100000"]], "Output",
+ CellChangeTimes->{3.8162853514995213`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"f0620590-7af8-4ca4-b5e1-ce4a41e6ce5d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PTVc", " ", "=", " ", 
+  RowBox[{"1", "/", "99"}]}]], "Input",
+ CellChangeTimes->{{3.8162853712883606`*^9, 3.816285387110501*^9}, {
+  3.8162858503275313`*^9, 3.816285855035056*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"960d7c61-d497-4938-822a-215f0a8e7a0c"],
+
+Cell[BoxData[
+ FractionBox["1", "99"]], "Output",
+ CellChangeTimes->{3.8162853884509144`*^9, 3.8162858586364226`*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"8d035e15-25ed-4e0e-919e-743c985a6ed2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PVc", " ", "=", " ", 
+  RowBox[{"1", "-", "PV"}]}]], "Input",
+ CellChangeTimes->{{3.8162853920243816`*^9, 3.8162854078899612`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"bfdcc006-b750-4a2f-b9b6-24e362314e44"],
+
+Cell[BoxData[
+ FractionBox["99999", "100000"]], "Output",
+ CellChangeTimes->{3.8162854099559*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"f550c816-4da8-45f6-b714-dc712c2d052d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PVT", " ", "=", " ", 
+  RowBox[{"N", "[", 
+   FractionBox[
+    RowBox[{"PTV", "*", "PV"}], 
+    RowBox[{
+     RowBox[{"PTV", "*", "PV"}], "+", 
+     RowBox[{"PTVc", "*", "PVc"}]}]], "]"}]}]], "Input",
+ CellChangeTimes->{{3.81628541340047*^9, 3.8162854897426796`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"f5c70cb2-603b-4602-814a-ca82f588ff48"],
+
+Cell[BoxData["0.000979150126462319`"], "Output",
+ CellChangeTimes->{{3.816285477820569*^9, 3.8162854909424706`*^9}, 
+   3.8162858642892227`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"c49de993-6eb7-411f-a0db-019d18fea81c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PTcV", " ", "=", " ", 
+  RowBox[{"1", "/", "100"}]}]], "Input",
+ CellChangeTimes->{{3.816286696417136*^9, 3.8162867083726883`*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"dcadfc5b-ef1d-4340-9e65-69a4d2585a25"],
+
+Cell[BoxData[
+ FractionBox["1", "100"]], "Output",
+ CellChangeTimes->{3.816286710884304*^9, 3.8162876775578833`*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"118eb3df-732c-4927-9ad3-8dc210bf8f78"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PTcVc", "=", "PTV"}]], "Input",
+ CellChangeTimes->{{3.816286720255066*^9, 3.8162868544004145`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"a82d690f-31ae-4c6a-8eea-4768eaf6799b"],
+
+Cell[BoxData["0.99`"], "Output",
+ CellChangeTimes->{3.816286857495863*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"40a62ec5-ff2c-4603-82cf-8e059f951a09"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PVTc", "=", 
+  RowBox[{"N", "[", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"PTcV", "*", "PV"}], ")"}], "/", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"PTcV", "*", "PV"}], "+", 
+      RowBox[{"PTcVc", "*", "PVc"}]}], ")"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8162873847447557`*^9, 3.8162873996978807`*^9}, {
+  3.816287438484443*^9, 3.816287503097559*^9}, {3.816287681637074*^9, 
+  3.816287684778819*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"59c152b0-0343-4879-bade-70b966826abc"],
+
+Cell[BoxData["1.010111009179687`*^-7"], "Output",
+ CellChangeTimes->{3.8162876879682455`*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"57718b45-113a-48be-b765-446c6a815461"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"b", "."}]}]], "Input",
+ CellChangeTimes->{{3.8164834740569897`*^9, 
+  3.816483476775717*^9}},ExpressionUUID->"01e82e3c-413e-4b9f-9682-\
+26b25fb3fb28"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PVT", "+", "PVTc"}]], "Input",
+ CellChangeTimes->{{3.8162876986376457`*^9, 3.8162877086235113`*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"42a6609a-3050-4324-95c7-f1edc4b70092"],
+
+Cell[BoxData["0.0009792511375632368`"], "Output",
+ CellChangeTimes->{3.816287709403019*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"981a911f-c6c1-4308-871e-c754f85f3c8b"]
+}, Open  ]],
+
+Cell[TextData[StyleBox["Ejercicio 6.8. 11\nd.", "Subsection",
+ FontColor->GrayLevel[0]]], "Text",
+ CellChangeTimes->{{3.8162872193570795`*^9, 3.816287220464241*^9}, 
+   3.8166389424728928`*^9, {3.8166391701951036`*^9, 3.8166391834581327`*^9}, {
+   3.816639241203602*^9, 3.816639247220025*^9}, {3.816639982048456*^9, 
+   3.8166399820848646`*^9}},ExpressionUUID->"2bc45e8d-dc2b-4b8c-b2c5-\
+9778b91e77a7"],
+
+Cell["\<\
+Definimos g1 como la funci\[OAcute]n inversa de la funci\[OAcute]n g definida \
+en el pdf de la tarea. La matriz jacobiana se calcul\[OAcute] mentalmente.
+\
+\>", "Text",
+ CellChangeTimes->{
+  3.81663917938673*^9, {3.816639234871478*^9, 
+   3.8166393012305603`*^9}},ExpressionUUID->"b1b880eb-5e15-4076-b34d-\
+a51565af5c55"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Dg1", " ", ":=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"u2", ",", "u1", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "u4", ",", "0", ",", "u2"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0", ",", "1", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0", ",", "u4", ",", "u3"}], "}"}]}], 
+   "}"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Dg1", "//", "MatrixForm"}]}], "Input",
+ CellChangeTimes->{{3.8166393044586678`*^9, 3.8166393173247814`*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"6be3046d-4b85-4811-a15e-b80e496b09b8"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"u2", "u1", "0", "0"},
+     {"0", "u4", "0", "u2"},
+     {"0", "0", "1", "0"},
+     {"0", "0", "u4", "u3"}
+    },
+    GridBoxAlignment->{"Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}], "\[NoBreak]", ")"}],
+  Function[BoxForm`e$, 
+   MatrixForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{3.8166393280863757`*^9},
+ CellLabel->
+  "Out[45]//MatrixForm=",ExpressionUUID->"a7e616e1-cfc0-4cd9-a33e-\
+45df7d1822d2"]
+}, Open  ]],
+
+Cell["Calculamos el determitante de Dg1:", "Text",
+ CellChangeTimes->{{3.816639371355582*^9, 
+  3.8166394072839904`*^9}},ExpressionUUID->"1218b46d-f0a6-43da-ad1a-\
+2acab5fe1244"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Det", "[", "Dg1", "]"}]], "Input",
+ CellChangeTimes->{{3.816639398202104*^9, 3.816639413185351*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"83d76611-488d-4bef-9dc4-2a1d1fadff85"],
+
+Cell[BoxData[
+ RowBox[{"u2", " ", "u3", " ", "u4"}]], "Output",
+ CellChangeTimes->{3.8166394151295977`*^9},
+ CellLabel->"Out[46]=",ExpressionUUID->"d69be12e-1408-4b87-a007-d0c5931c4d8e"]
+}, Open  ]],
+
+Cell["\<\
+Definimos constantes a1, a2, a3, a4 para evaluar la esperanza y la desviaci\
+\[OAcute]n est\[AAcute]ndar de odds ratio:\
+\>", "Text",
+ CellChangeTimes->{{3.816639497255973*^9, 
+  3.816639560991954*^9}},ExpressionUUID->"2d7a97ad-ba5f-468d-8fae-\
+f5158c435147"],
+
+Cell[BoxData[{
+ RowBox[{"a1", ":=", 
+  RowBox[{"435", "+", 
+   RowBox[{"1", "/", "2"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"a2", ":=", 
+  RowBox[{"147", "+", 
+   RowBox[{"1", "/", "2"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"a3", ":=", 
+  RowBox[{"375", "+", 
+   RowBox[{"1", "/", "2"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"a4", ":=", 
+  RowBox[{"134", "+", 
+   RowBox[{"1", "/", "2"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"B", ":=", 
+  RowBox[{
+   RowBox[{"Gamma", "[", "a1", "]"}], "*", 
+   RowBox[{"Gamma", "[", "a2", "]"}], "*", 
+   RowBox[{"Gamma", "[", "a3", "]"}], "*", 
+   RowBox[{"Gamma", "[", "a4", "]"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"B1", ":=", 
+  RowBox[{"1", "/", "B"}]}]}], "Input",
+ CellChangeTimes->{{3.81663956553386*^9, 3.8166396326297393`*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"876d0d94-4265-48e5-ac06-efb714ccccf4"],
+
+Cell["Calculamos la esperanza de U=odds ratio ", "Text",
+ CellChangeTimes->{{3.8166396443089685`*^9, 
+  3.8166396622655897`*^9}},ExpressionUUID->"c0ec743c-9a20-4957-b68e-\
+0c61f84746a1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"EU", ":=", 
+  RowBox[{"N", "[", 
+   RowBox[{
+    RowBox[{"Integrate", "[", 
+     RowBox[{
+      RowBox[{"B1", "*", 
+       SuperscriptBox["u1", "a1"], "*", 
+       SuperscriptBox["u2", 
+        RowBox[{"a1", "+", "a2", "-", "1"}]], "*", 
+       SuperscriptBox["u3", 
+        RowBox[{"a3", "+", "a4", "-", "1"}]], "*", 
+       SuperscriptBox["u4", 
+        RowBox[{"a2", "+", "a4", "-", "1"}]], "*", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "u1"}], "*", "u2"}], "-", 
+         RowBox[{"u2", "*", "u3"}], "-", "u3", "-", 
+         RowBox[{"u3", "*", "u4"}]}]]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"u1", ",", "0", ",", "\[Infinity]"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"u2", ",", "0", ",", "\[Infinity]"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"u3", ",", "0", ",", "\[Infinity]"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"u4", ",", "0", ",", "\[Infinity]"}], "}"}]}], "]"}], ",", 
+    "10"}], "]"}]}], "\[IndentingNewLine]", "EU"}], "Input",
+ CellChangeTimes->{{3.8166395973154783`*^9, 3.8166395981439133`*^9}, {
+  3.8166396747127013`*^9, 3.8166396836239996`*^9}},
+ CellLabel->"In[53]:=",ExpressionUUID->"eddddee4-e4fa-4fa3-a94c-dce0020bfde1"],
+
+Cell[BoxData["8.29612463876440682471583`10.*^-343"], "Output",
+ CellChangeTimes->{3.816639713996046*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"4e316fc6-710b-4eee-84ae-30fcf004bdc8"]
+}, Open  ]],
+
+Cell["Calculamos la esperanza de U^2", "Text",
+ CellChangeTimes->{{3.8166397662583203`*^9, 
+  3.8166398096953597`*^9}},ExpressionUUID->"0ba10ab7-ec52-493d-8ef3-\
+2be2731adafc"],
+
+Cell[BoxData[
+ RowBox[{"EU2", ":=", 
+  RowBox[{"N", "[", 
+   RowBox[{
+    RowBox[{"Integrate", "[", 
+     RowBox[{
+      RowBox[{"B1", "*", 
+       SuperscriptBox["u1", 
+        RowBox[{"a1", "+", "1"}]], "*", 
+       SuperscriptBox["u2", 
+        RowBox[{"a1", "+", "a2", "-", "1"}]], "*", 
+       SuperscriptBox["u3", 
+        RowBox[{"a3", "+", "a4", "-", "1"}]], "*", 
+       SuperscriptBox["u4", 
+        RowBox[{"a2", "+", "a4", "-", "1"}]], "*", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "u1"}], "*", "u2"}], "-", 
+         RowBox[{"u2", "*", "u3"}], "-", "u3", "-", 
+         RowBox[{"u3", "*", "u4"}]}]]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"u1", ",", "0", ",", "\[Infinity]"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"u2", ",", "0", ",", "\[Infinity]"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"u3", ",", "0", ",", "\[Infinity]"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"u4", ",", "0", ",", "\[Infinity]"}], "}"}]}], "]"}], ",", 
+    "10"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8166397583219585`*^9, 3.816639760200771*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"6ca631f0-720b-4691-8a9b-9a16bb98ae3b"],
+
+Cell["Calculamos la varianza", "Text",
+ CellChangeTimes->{{3.816639833392994*^9, 
+  3.8166398592167788`*^9}},ExpressionUUID->"2c47f225-03ee-4779-aac5-\
+f4b72fb47da9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"VU", "=", 
+  RowBox[{"EU2", " ", "-", " ", 
+   SuperscriptBox["EU", "2"]}]}]], "Input",
+ CellChangeTimes->{{3.8166398613897276`*^9, 3.8166398710034347`*^9}},
+ CellLabel->"In[56]:=",ExpressionUUID->"e2bf9dfa-1fd6-4df6-bf19-aadb0097fcdd"],
+
+Cell[BoxData["2.02840247417789746864302155`10.*^-340"], "Output",
+ CellChangeTimes->{3.8166399298478527`*^9},
+ CellLabel->"Out[56]=",ExpressionUUID->"93b9f62e-f6dd-45f3-a72f-fad299c4241f"]
+}, Open  ]],
+
+Cell["Y finalmente calculamos la desviaci\[OAcute]n est\[AAcute]ndar.", "Text",
+ CellChangeTimes->{{3.816639896439081*^9, 
+  3.8166399423516855`*^9}},ExpressionUUID->"9e623842-cf5a-4737-a72e-\
+a77fd54d0bc0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"SDU", " ", ":=", " ", 
+  RowBox[{"Sqrt", "[", "VU", "]"}]}], "\[IndentingNewLine]", "SDU"}], "Input",
+ CellChangeTimes->{{3.816639945513353*^9, 3.816639960997548*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"74cabe64-864b-470d-92f7-cc385f334b1a"],
+
+Cell[BoxData["1.4242199528787319544133`10.301029995663967*^-170"], "Output",
+ CellChangeTimes->{3.8166399620407224`*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"91fd15f2-da39-45d6-9043-e09f24527158"]
+}, Open  ]],
+
+Cell[BoxData[Cell[TextData[StyleBox["Cap\[IAcute]tulo 7", "Chapter"]], "Text",
+  CellChangeTimes->{{3.816638991820386*^9, 3.8166390665510035`*^9}},
+  ExpressionUUID->"84f88a98-03d4-4c57-99b1-80e29e65da6b"]], "Input",
+ CellChangeTimes->{{3.816640137454291*^9, 
+  3.816640153696255*^9}},ExpressionUUID->"4aef29d9-67b9-4fba-a430-\
+251c20162cbf"],
+
+Cell[BoxData[Cell[TextData[StyleBox["Ejercicio 7.8. 18\nd.", "Subsection",
+  FontColor->GrayLevel[0]]], "Text",
+  CellChangeTimes->{{3.8162872193570795`*^9, 3.816287220464241*^9}, 
+    3.8166389424728928`*^9, {3.8166391701951036`*^9, 
+    3.8166391834581327`*^9}, {3.816639241203602*^9, 3.816639247220025*^9}, {
+    3.816639982048456*^9, 3.8166399820848646`*^9}},ExpressionUUID->
+  "a5db91cc-fb87-4c76-a478-06cc1139f5b9"]], "Input",
+ CellChangeTimes->{{3.8166399893493495`*^9, 3.816640000132493*^9}, {
+  3.8166400756443644`*^9, 
+  3.8166400817653465`*^9}},ExpressionUUID->"7e43461b-82ae-4e51-b4b7-\
+ff4c81fd944c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"Integrate", "[", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["y", 
+      RowBox[{"(", 
+       RowBox[{"\[Nu]", "/", "2"}], ")"}]], "*", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"y", "-", 
+        RowBox[{"x", "*", "y"}]}], ")"}], 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"\[Mu]", "/", "2"}], ")"}], "-", "1"}]], "*", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{
+       RowBox[{"-", "y"}], "/", "2"}]]}], ",", 
+    RowBox[{"{", 
+     RowBox[{"y", ",", "0", ",", "\[Infinity]"}], "}"}], ",", " ", 
+    RowBox[{"Assumptions", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\[Mu]", "\[Element]", "Integers"}], "&&", 
+       RowBox[{"\[Nu]", "\[Element]", "Integers"}], "&&", 
+       RowBox[{"\[Mu]", ">", "0"}], "&&", 
+       RowBox[{"\[Nu]", ">", "1"}], "&&", 
+       RowBox[{"x", " ", "\[Epsilon]", " ", "Reals"}], " ", "&&", " ", 
+       RowBox[{"x", ">", "1"}]}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8166400791805105`*^9, 3.816640090079076*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"9bd990da-b248-459e-9686-93ffad4dcbe3"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["2", 
+   FractionBox[
+    RowBox[{"\[Mu]", "+", "\[Nu]"}], "2"]], " ", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{"1", "-", "x"}], ")"}], 
+   RowBox[{
+    RowBox[{"-", "1"}], "+", 
+    FractionBox["\[Mu]", "2"]}]], " ", 
+  RowBox[{"Gamma", "[", 
+   FractionBox[
+    RowBox[{"\[Mu]", "+", "\[Nu]"}], "2"], "]"}]}]], "Output",
+ CellChangeTimes->{3.816640097029914*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"e3657b90-343a-4b47-8799-f03dfbc26a16"]
+}, Open  ]]
+},
+WindowSize->{1152., 585.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"833ebc33-b541-4c09-940f-06cd587ceaf0"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 620, 9, 72, "Text",ExpressionUUID->"40e56dc5-8fac-4f1f-998b-96329017eef3"],
+Cell[1181, 31, 193, 3, 59, "Text",ExpressionUUID->"9d43b5e4-4fe2-461c-927c-4d4753d899dd"],
+Cell[1377, 36, 275, 5, 70, "Text",ExpressionUUID->"85727064-636c-401a-8d67-ab04143cde0a"],
+Cell[1655, 43, 19350, 619, 163, "Text",ExpressionUUID->"1307218e-4682-4b93-a2aa-a1285b72d807"],
+Cell[CellGroupData[{
+Cell[21030, 666, 202, 3, 28, "Input",ExpressionUUID->"e7b1b5f0-0912-41d3-afce-7046a4135c77"],
+Cell[21235, 671, 151, 2, 32, "Output",ExpressionUUID->"8bf5a9c1-b71a-453c-a98f-567afbbd72db"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21423, 678, 226, 4, 28, "Input",ExpressionUUID->"8583f196-98f3-4788-b9a0-7588694270d4"],
+Cell[21652, 684, 175, 3, 48, "Output",ExpressionUUID->"f0620590-7af8-4ca4-b5e1-ce4a41e6ce5d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21864, 692, 284, 5, 28, "Input",ExpressionUUID->"960d7c61-d497-4938-822a-215f0a8e7a0c"],
+Cell[22151, 699, 196, 3, 48, "Output",ExpressionUUID->"8d035e15-25ed-4e0e-919e-743c985a6ed2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22384, 707, 233, 4, 28, "Input",ExpressionUUID->"bfdcc006-b750-4a2f-b9b6-24e362314e44"],
+Cell[22620, 713, 175, 3, 48, "Output",ExpressionUUID->"f550c816-4da8-45f6-b714-dc712c2d052d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22832, 721, 370, 9, 46, "Input",ExpressionUUID->"f5c70cb2-603b-4602-814a-ca82f588ff48"],
+Cell[23205, 732, 223, 3, 32, "Output",ExpressionUUID->"c49de993-6eb7-411f-a0db-019d18fea81c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23465, 740, 234, 4, 28, "Input",ExpressionUUID->"dcadfc5b-ef1d-4340-9e65-69a4d2585a25"],
+Cell[23702, 746, 195, 3, 48, "Output",ExpressionUUID->"118eb3df-732c-4927-9ad3-8dc210bf8f78"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23934, 754, 202, 3, 28, "Input",ExpressionUUID->"a82d690f-31ae-4c6a-8eea-4768eaf6799b"],
+Cell[24139, 759, 153, 2, 32, "Output",ExpressionUUID->"40a62ec5-ff2c-4603-82cf-8e059f951a09"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24329, 766, 521, 13, 28, "Input",ExpressionUUID->"59c152b0-0343-4879-bade-70b966826abc"],
+Cell[24853, 781, 172, 2, 32, "Output",ExpressionUUID->"57718b45-113a-48be-b765-446c6a815461"]
+}, Open  ]],
+Cell[25040, 786, 208, 5, 49, "Input",ExpressionUUID->"01e82e3c-413e-4b9f-9682-26b25fb3fb28"],
+Cell[CellGroupData[{
+Cell[25273, 795, 203, 3, 28, "Input",ExpressionUUID->"42a6609a-3050-4324-95c7-f1edc4b70092"],
+Cell[25479, 800, 170, 2, 32, "Output",ExpressionUUID->"981a911f-c6c1-4308-871e-c754f85f3c8b"]
+}, Open  ]],
+Cell[25664, 805, 402, 6, 70, "Text",ExpressionUUID->"2bc45e8d-dc2b-4b8c-b2c5-9778b91e77a7"],
+Cell[26069, 813, 332, 8, 58, "Text",ExpressionUUID->"b1b880eb-5e15-4076-b34d-a51565af5c55"],
+Cell[CellGroupData[{
+Cell[26426, 825, 631, 15, 49, "Input",ExpressionUUID->"6be3046d-4b85-4811-a15e-b80e496b09b8"],
+Cell[27060, 842, 702, 21, 94, "Output",ExpressionUUID->"a7e616e1-cfc0-4cd9-a33e-45df7d1822d2"]
+}, Open  ]],
+Cell[27777, 866, 178, 3, 35, "Text",ExpressionUUID->"1218b46d-f0a6-43da-ad1a-2acab5fe1244"],
+Cell[CellGroupData[{
+Cell[27980, 873, 203, 3, 28, "Input",ExpressionUUID->"83d76611-488d-4bef-9dc4-2a1d1fadff85"],
+Cell[28186, 878, 186, 3, 32, "Output",ExpressionUUID->"d69be12e-1408-4b87-a007-d0c5931c4d8e"]
+}, Open  ]],
+Cell[28387, 884, 269, 6, 35, "Text",ExpressionUUID->"2d7a97ad-ba5f-468d-8fae-f5158c435147"],
+Cell[28659, 892, 856, 22, 127, "Input",ExpressionUUID->"876d0d94-4265-48e5-ac06-efb714ccccf4"],
+Cell[29518, 916, 186, 3, 35, "Text",ExpressionUUID->"c0ec743c-9a20-4957-b68e-0c61f84746a1"],
+Cell[CellGroupData[{
+Cell[29729, 923, 1267, 31, 51, "Input",ExpressionUUID->"eddddee4-e4fa-4fa3-a94c-dce0020bfde1"],
+Cell[30999, 956, 183, 2, 32, "Output",ExpressionUUID->"4e316fc6-710b-4eee-84ae-30fcf004bdc8"]
+}, Open  ]],
+Cell[31197, 961, 176, 3, 35, "Text",ExpressionUUID->"0ba10ab7-ec52-493d-8ef3-2be2731adafc"],
+Cell[31376, 966, 1211, 31, 32, "Input",ExpressionUUID->"6ca631f0-720b-4691-8a9b-9a16bb98ae3b"],
+Cell[32590, 999, 166, 3, 35, "Text",ExpressionUUID->"2c47f225-03ee-4779-aac5-f4b72fb47da9"],
+Cell[CellGroupData[{
+Cell[32781, 1006, 260, 5, 28, "Input",ExpressionUUID->"e2bf9dfa-1fd6-4df6-bf19-aadb0097fcdd"],
+Cell[33044, 1013, 188, 2, 32, "Output",ExpressionUUID->"93b9f62e-f6dd-45f3-a72f-fad299c4241f"]
+}, Open  ]],
+Cell[33247, 1018, 207, 3, 35, "Text",ExpressionUUID->"9e623842-cf5a-4737-a72e-a77fd54d0bc0"],
+Cell[CellGroupData[{
+Cell[33479, 1025, 271, 4, 49, "Input",ExpressionUUID->"74cabe64-864b-470d-92f7-cc385f334b1a"],
+Cell[33753, 1031, 199, 2, 32, "Output",ExpressionUUID->"91fd15f2-da39-45d6-9043-e09f24527158"]
+}, Open  ]],
+Cell[33967, 1036, 342, 5, 59, "Input",ExpressionUUID->"4aef29d9-67b9-4fba-a430-251c20162cbf"],
+Cell[34312, 1043, 613, 10, 70, "Input",ExpressionUUID->"7e43461b-82ae-4e51-b4b7-ff4c81fd944c"],
+Cell[CellGroupData[{
+Cell[34950, 1057, 1154, 30, 51, "Input",ExpressionUUID->"9bd990da-b248-459e-9686-93ffad4dcbe3"],
+Cell[36107, 1089, 491, 15, 48, "Output",ExpressionUUID->"e3657b90-343a-4b47-8799-f03dfbc26a16"]
+}, Open  ]]
+}
+]
+*)
+
